@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Modak&display=swap");
+
+@media only screen and (max-width: 768px) {
+  #mediaToggle {
+    display: none !important;
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+header {
+  font-family: "Modak", cursive;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  font-family: "Modak", cursive;
+}
+
+.text-light {
+  text-shadow: 1px 1px black;
+}
+
+/* .btn:focus,
+.btn:active {
+  outline: none;
+  box-shadow: none;
+} */
+
+.btn.upgrade {
+  box-shadow: 1px 1px black;
+}
+
+div {
+  border: 1px solid red;
+}
