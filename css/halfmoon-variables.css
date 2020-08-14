@@ -427,6 +427,9 @@ main {
 footer {
   font-family: "Modak", cursive;
 }
+.text-light-shadow {
+  text-shadow: 1px 1px 5px black;
+}
 
 /* 
 * body.dark-mode is not styled directly so that parts of the page can be 
